@@ -34,7 +34,7 @@ def toc():
                - startTime_for_tictoc)
                + " sec")
     else:
-        print "Toc: start time not set"
+        print ("Toc: start time not set")
 
 if TIMER:
     tic()
@@ -182,7 +182,7 @@ osmDictionary = getOsmFile(args.boundingbox,
 # if args.imageFile:
 #     if TIMER:
 #         tic()
-#     print "Building the image file ..."
+#     print ("Building the image file ...")
 #     args.imageFile = args.directory + args.imageFile
 #     getMapImage(args.osmFile, args.imageFile)
 #     if TIMER:
@@ -241,7 +241,7 @@ for idx, road in enumerate(roadPointWidthMap.keys()):
     print ('| Road' + str(idx+1) + ': ' + road)
 
     laneSegmentWidths.append(roadPointWidthMap[road]['width'])
-    print "|  -- Width: ", str(roadPointWidthMap[road]['width'])
+    print ("|  -- Width: ", str(roadPointWidthMap[road]['width']))
 
     xData = points[0, :]
     yData = points[1, :]
