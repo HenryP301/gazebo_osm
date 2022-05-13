@@ -40,8 +40,8 @@ class LaneBoundaries:
 		# drawing and inflating the middle lane.
 		for idx, midLane in enumerate(centerLanes):
 
-			xOffset = size[0]/2
-			yOffset = size[1]/2
+			xOffset = size[0]//2
+			yOffset = size[1]//2
 
 			laneWidth = int(math.ceil(laneSegmentWidths[idx] * 6 *scalar))
 			print ("| MidLane Width: ", str(laneWidth))
