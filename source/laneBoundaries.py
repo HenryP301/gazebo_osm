@@ -44,7 +44,7 @@ class LaneBoundaries:
 			yOffset = size[1]/2
 
 			laneWidth = int(math.ceil(laneSegmentWidths[idx] * 6 *scalar))
-			print "| MidLane Width: ", str(laneWidth)
+			print ("| MidLane Width: ", str(laneWidth))
 
 			if len(midLane[0]) > 2:
 
