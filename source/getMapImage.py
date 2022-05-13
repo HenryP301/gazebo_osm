@@ -29,7 +29,7 @@ def getMapImage(osmFile, map_output):
     print ('Has Mapnik.')
 
     if osmFile == '':
-        print 'Error: getMapImage::No File Recieved'
+        print ('Error: getMapImage::No File Recieved')
         return -1
     else:
         print ('OSM File: ' + osmFile)
