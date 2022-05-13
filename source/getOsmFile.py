@@ -31,7 +31,7 @@ def getOsmFile(box, outputFile='map.osm', inputOsmFile=''):
             print ("\nError:\tPlease check the bounding box input arguments"
                    + "\n\tFormat: MinLon MinLat MaxLon MaxLat")
             return {}
-        osm = open(outputFile, 'w')
+        osm = open(outputFile, 'wb')
 
         osm.write(osmFile.read())
 
