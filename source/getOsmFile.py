@@ -41,7 +41,7 @@ def getOsmFile(box, outputFile='map.osm', inputOsmFile=''):
 
     myapi = osmapi.OsmApi()
 
-    dataDict = myapi.ParseOsm(osmRead.read())
+    dataDict = osmapi.parser.ParseOsm(osmRead.read())
 
     osmRead.close()
 
