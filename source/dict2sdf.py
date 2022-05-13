@@ -166,7 +166,7 @@ class GetSDF:
 
     def writeToFile(self, filename):
         '''Write sdf file'''
-        outfile = open(filename, "w")
+        outfile = open(filename, "wb")
         outfile.write(Et.tostring(self.sdf, pretty_print=True,
                                   xml_declaration=True))
         outfile.close()
