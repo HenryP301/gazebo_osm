@@ -166,7 +166,7 @@ if args.interactive:
         args.imageFile = 'map.png'
 
 if args.inputOsmFile:
-    f = open(args.inputOsmFile, 'r')
+    f = open(args.inputOsmFile, 'rb')
     root = etree.fromstring(f.read())
     f.close()
     args.boundingbox = [float(root[0].get('minlon')),
