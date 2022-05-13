@@ -55,7 +55,7 @@ class StageWorld:
 		fo.write("  laser_return 1          # visible to lasers\n)\n\n")
 		fo.close()
 
-		print "| Created file", outputWorldName
+		print ("| Created file", outputWorldName)
 
 	def createStageYamlFile(self, outputName, outputDir):
 		#create stage world file should have already created the dir if necessary
@@ -68,11 +68,11 @@ class StageWorld:
 		fo.close()
 
 
-		print "| Created file", outputYamlName
+		print ("| Created file", outputYamlName)
 
 	def movePNGToStageFolder(self, pathToPNG, outputDir):
 		os.shutil.copyfile(pathToPNG, outputDir)
-		print "| Copied output PNG"
+		print ("| Copied output PNG")
 
 if __name__ == "__main__":
 
