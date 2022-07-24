@@ -5,6 +5,7 @@
 	Version:        1.9
 	Description:    Open Street Maps plugin for Gazebo and Stage Simulators
 	                This folder contains files for building osm_plugin for both simulators.
+			Python 2 updated to python 3
 	
 
 ## Dependencies: ##
