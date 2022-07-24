@@ -1,4 +1,4 @@
-# OSM Plug-in for Gazebo/Stage #
+# OSM Plugin for Gazebo #
 	
 	Author:         Tashwin Khurana
 	Maintainer:     Krystian Gebis
